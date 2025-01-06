@@ -9,9 +9,9 @@ const Navbar = () => {
       <ul>
         <NavLink>
           <li>HOME</li>
-          <li>HOME</li>
-          <li>HOME</li>
-          <li>HOME</li>
+          <li>OUR SERVICES</li>
+          <li>CONTACT</li>
+          <li>ABOUT</li>
         </NavLink>
       </ul>
     </div>
