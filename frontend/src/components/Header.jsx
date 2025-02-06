@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import { assets } from "../assets/assets";
 
 const Header = () => {
@@ -17,13 +18,10 @@ const Header = () => {
             Way.
           </p>
         </div>
-        <a
-          href=""
-          className="flex items-center text-white font-semibold text-sm md:text-base"
-        >
-          Book Appointment{" "}
-          <img className="ml-2 w-4 md:w-6" src={assets.arrow_icon} alt="" />
-        </a>
+        <Link to="/services" className="flex items-center text-white font-semibold text-sm md:text-base">
+        Book Appointment
+        <img className="ml-2 w-4 md:w-6" src={assets.arrow_icon} alt="Arrow Icon" />
+        </Link>
       </div>
       {/* ----------Right Side-------- */}
       <div className="md:w-1/2">
