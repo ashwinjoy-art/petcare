@@ -9,7 +9,7 @@ const About = () => {
         <p>ABOUT <span className='text-gray-700 font-semibold'>US</span></p>
       </div>
       <div className="my-10 flex flex-col md:flex-row gap-16">
-        <img className="w-full md:max-w-[560px]" src={assets.about_image} alt=""/>
+        <img className="w-full md:max-w-[590px]" src={assets.about_image} alt=""/>
         <div className="text-justify flex flex-col justify-center gap-6 md:w-2/4 text-gray-600">
           <p>
             PetCare was created with a deep love for animals and a mission to
