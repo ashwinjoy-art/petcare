@@ -6,10 +6,14 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
-        'primary':'#3FAAEE'
-      }
+      colors: {
+        'primary': '#3FAAEE',
+      },
+      fontFamily: {
+        outfit: ["Outfit", "sans-serif"],
+        prata: ["Prata", "serif"],
+      },
     },
   },
   plugins: [],
-}
+};
